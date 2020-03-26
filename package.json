@@ -1,0 +1,33 @@
+{
+  "name": "slak-quizgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --verbose",
+    "dev": "nodemon index -"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopher-alba/slak-quizgame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopher-alba/slak-quizgame/issues"
+  },
+  "homepage": "https://github.com/christopher-alba/slak-quizgame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "handlebars": "^4.7.3"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jest": "^25.2.0",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
