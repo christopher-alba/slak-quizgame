@@ -1,3 +1,30 @@
-* {
-  background-color: red;
+body{
+  height: 100%;
+  background-color: aqua;
+  font-family: 'Passion One', cursive;
 }
+
+.container {
+  /* border: black solid 1px; */
+  width: 100%;
+  /* background-color: white; */
+  margin: 5em 1em 1em 5em;
+}
+
+.leaderboard {
+  border: black solid 1px;
+  margin-top: 2.5em;
+  padding: 1em;
+  background-color: white;
+  width: 10%;
+  text-align: center;
+}
+
+.playerScoreCont {
+  border-bottom: black solid 1px;
+
+}
+
+
+
+/* .container */

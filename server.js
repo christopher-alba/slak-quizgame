@@ -12,5 +12,5 @@ server.engine('hbs', hbs({
 
 server.use(express.urlencoded({ extended: false }))
 server.set('view engine', 'hbs')
-server.use(express.static('public'))
-server.use(routes)
+server.use(express.static('Public'))
+server.use(routes.routes)

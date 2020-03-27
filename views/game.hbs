@@ -1,5 +1,34 @@
 <a href="/index"><button>Return to home page</button></a>
-
+<h1 id ="score">Score: </h1>
 {{!-- This button will submit answers when players click it --}}
-<button type="submit">Submit</button>
+<div class="container">
+
+  <h3 id="question"></h3>
+  <form action="">
+      
+      <input class="RadioButtons" id="radioButtonA" name="answer" type="radio" onchange="updateAnswer(this)">
+        <label id="a"></label>
+
+    <br>
+      <input class="RadioButtons" id="radioButtonB" name="answer" type="radio" onchange="updateAnswer(this)">
+        <label  id="b"></label>
+
+    <br>
+      <input class="RadioButtons" id="radioButtonC" name="answer" type="radio" onchange="updateAnswer(this)">
+        <label id="c"></label> 
+        
+    <br>
+      <input class="RadioButtons" id="radioButtonD" name="answer" type="radio" onchange="updateAnswer(this)">
+        <label id="d"></label>
+
+    <br>
+    
+  </form>
+</div>
+    <button id = "nextQ" type="submit">Submit</button>
+
+<div class="leaderboard">
+    
+</div>
+
 
